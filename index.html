@@ -4,10 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Encurtador de URLs</title>
 </head>
 
 <body>
+    <div class="container">
+        <i class="fa-solid fa-link"></i>
+        <h1>Encurtador de URL</h1>
+        <label for="originalUrl">Digite o link aqui: </label>
+        <input type="text" id="originalUrl" placeholder="https://exemplo.com">
+        <div class="buttons">
+            <button id="reload-btn">Recarregar</button>
+            <button id="short-btn">Encurtar URL</button>
+        </div>
+        <label for="shortenedUrl">URL encurtada: </label>
+        <textarea id="shortenedUrl" rows="3" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/8e4a25e86e.js" crossorigin="anonymous"></script>
 
 </body>
 
