@@ -30,7 +30,7 @@ body {
 }
 
 .container i {
-    font-size: 85px;
+    font-size: 65px;
     margin-bottom: 10px;
     color: #1d0577;
 }
@@ -90,6 +90,11 @@ button {
 button:hover {
     background-color: #000;
     color: #fff;
+}
+
+#copy-btn {
+    width: 50%;
+    opacity: 0;
 }
 
 textarea {
